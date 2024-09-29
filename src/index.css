@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .dark-mode {
+      @apply bg-neutral-900 text-white border-none;
+      
+    }
+    .light-mode{
+      @apply bg-slate-50
+    }
+    .light-mode2{
+        @apply bg-white;
+    }
+    .light-mode3{
+      @apply bg-indigo-50
+    }
+    .light-mode4{
+      @apply bg-white border-none
+    }
+    .dark-mode4{
+      @apply bg-neutral-600 border-none
+    }
+    .dark-mode2{
+        @apply bg-neutral-950 border-none;
+    }
+    .dark-mode3{
+      @apply bg-neutral-800 border-none ;
+
+      
+  }
+
+  }
+
+  .navbar:hover{
+    background-color: rgb(238, 242, 255);
+    border:none;
+    border-radius: 50px;
+    width:100%;
+    color:rgb(10, 10, 10);
+    
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+html {
+  scroll-behavior: smooth;
+}
+  
